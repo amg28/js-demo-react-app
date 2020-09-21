@@ -4,6 +4,8 @@
 JS Demo React app is a search app based on the television show "Rick and Morty" characters.
 This app is created using Rick and Morty API: [Link to API](https://rickandmortyapi.com/)
 
+Link to a Github Page demo - [link](https://amg28.github.io/js-demo-react-app/)
+
 # Prerequisites
 You must have the following installed:
 
