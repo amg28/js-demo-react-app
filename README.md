@@ -1,3 +1,5 @@
+![App_Logo](src/img/rick-morty-logo.png)
+
 # JS Demo React App
 JS Demo React app is a search app based on the television show "Rick and Morty" characters.
 This app is created using Rick and Morty API: [Link to API](https://rickandmortyapi.com/)
@@ -5,11 +7,11 @@ This app is created using Rick and Morty API: [Link to API](https://rickandmorty
 # Prerequisites
 You must have the following installed:
 
-Node.js v10+
-NPM v6+ (comes installed with newer Node versions)
+* Node.js
+* NPM (comes installed with Node)
 
 # Installation
-1. Install app dependencies by running command:
+1. Install app dependencies by running:
 `npm install`
 
 2. Run app using command:
