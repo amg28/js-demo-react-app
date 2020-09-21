@@ -1,0 +1,103 @@
+body{
+  background: #1c1c1c;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.header-container{
+  display: grid;
+  grid-template-columns: 1fr 0.75fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: ". logo .";
+}
+
+.logo {
+  align-items: center;
+  justify-content: center;
+  grid-area: logo;
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.container {
+  background: linear-gradient(0deg, #1c1c1c 40%, #34a143 120%);
+}
+
+.search-section {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: ". bar .";
+}
+
+.search-container {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-area: bar;
+}
+
+.search-bar{
+  height: 40px;
+  color: black;  
+  text-align: left;
+  cursor: pointer;
+  display: block; 
+  letter-spacing: 2px;        
+  word-spacing: 2px;    
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.search-button{
+  height: 40px;
+  background-color: #39b54a;
+  color: white;
+  border: none;
+
+}
+
+.character-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  row-gap: 50px;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 0.5fr;
+}
+
+.card-img{
+  justify-self: center;
+  align-self: center;
+}
+
+.card-name{
+  justify-self: center;
+  align-self: center;
+  color: white;
+  font-size: 18px;
+}
+
+.error{
+  color: #ff0033;
+}
+
+.hidden {
+  visibility: hidden;
+}
