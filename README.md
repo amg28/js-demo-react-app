@@ -25,4 +25,4 @@ You must have the following installed:
 `npm run deploy`
 
 # License
-See the LICENSE file for details.
+See the [LICENSE](/LICENSE.md) file for details.
