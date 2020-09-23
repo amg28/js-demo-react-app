@@ -26,5 +26,17 @@ You must have the following installed:
 2. To deploy an app to Github pages you need to run:
 `npm run deploy`
 
+# Used Functions
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+# Next steps
+- [ ] Update app logo from PNG to SVG format
+- [ ] Add detailed view for each character
+- [ ] Add CSS media quries for mobile view
+- [ ] Add onkeydown event on a search input
+
 # License
 See the [LICENSE](/LICENSE.md) file for details.
