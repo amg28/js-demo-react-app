@@ -34,7 +34,7 @@ You must have the following installed:
 
 # Next steps
 - [ ] Update app logo from PNG to SVG format
-- [ ] Add detailed view for each character
+- [ ] Add Character's detail view
 - [ ] Add CSS media quries for mobile view
 - [ ] Add onkeydown event on a search input
 
