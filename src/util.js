@@ -10,7 +10,6 @@ const sendHttpRequest = (method, url) => {
       if (xhr.status >= 400) {
         reject(xhr.response);
       } else {
-        console.log(xhr.response);
         resolve(xhr.response);
       }
     }

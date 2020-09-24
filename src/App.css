@@ -82,6 +82,10 @@ body{
   grid-template-rows: 2fr 0.5fr;
 }
 
+.card:hover{
+  transform: scale(1.1);
+}
+
 .card-img{
   justify-self: center;
   align-self: center;
