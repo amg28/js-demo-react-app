@@ -32,11 +32,11 @@ You must have the following installed:
 | Header | Title |
 | Paragraph | Text |
 
-# Next steps
+# Next steps checklist
 - [ ] Update app logo from PNG to SVG format
 - [ ] Add Character's detail view
 - [ ] Add CSS media quries for mobile view
-- [ ] Add onkeydown event on a search input
+- [X] Add onkeydown event on a search input
 
 # License
 See the [LICENSE](/LICENSE.md) file for details.
