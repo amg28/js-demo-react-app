@@ -35,8 +35,8 @@ You must have the following installed:
 # Next steps checklist
 - [X] Update app logo from PNG to SVG format
 - [ ] Add Character's detail view
+- [ ] ![75%](https://progress-bar.dev/50) Add CSS media quries for mobile view
 - [X] Add onkeydown event on a search input
-![50%](https://progress-bar.dev/50) Add CSS media quries for mobile view
 
 # License
 See the [LICENSE](/LICENSE.md) file for details.
