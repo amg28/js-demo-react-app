@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../img/rick-morty-logo.png'
+import image from '../../img/rick-morty-logo.svg'
 
 const Header = () => {
     return (
