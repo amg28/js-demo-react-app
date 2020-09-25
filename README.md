@@ -1,4 +1,4 @@
-![App_Logo](src/img/rick-morty-logo.png)
+![App_Logo](src/img/rick-morty-banner.png)
 
 # JS Demo React App
 JS Demo React app is a search app based on the television show "Rick and Morty" characters.
