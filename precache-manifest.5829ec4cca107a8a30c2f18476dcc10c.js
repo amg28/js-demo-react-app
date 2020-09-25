@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1532ea2bb551f9325d4401beafe817eb",
+    "revision": "03bdac811685c468c152604ebcc2161b",
     "url": "/js-demo-react-app/index.html"
   },
   {
-    "revision": "a613653a2d6a78bda8cd",
-    "url": "/js-demo-react-app/static/css/main.deaa1402.chunk.css"
+    "revision": "67eda5a94c4f07df76a9",
+    "url": "/js-demo-react-app/static/css/main.1051cca5.chunk.css"
   },
   {
     "revision": "3d577a6c509fde56909c",
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js-demo-react-app/static/js/2.137014c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a613653a2d6a78bda8cd",
-    "url": "/js-demo-react-app/static/js/main.ee04f11c.chunk.js"
+    "revision": "67eda5a94c4f07df76a9",
+    "url": "/js-demo-react-app/static/js/main.70eb5a96.chunk.js"
   },
   {
     "revision": "7f9ea526f2d95ab6b7f4",
     "url": "/js-demo-react-app/static/js/runtime-main.4618d029.js"
   },
   {
-    "revision": "8d9fe1e535063026e952d3d3a2f619a7",
-    "url": "/js-demo-react-app/static/media/rick-morty-logo.8d9fe1e5.png"
+    "revision": "7123481b6e76a9c2660c5231f69cfb46",
+    "url": "/js-demo-react-app/static/media/rick-morty-logo.7123481b.svg"
   }
 ]);
