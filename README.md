@@ -26,11 +26,11 @@ You must have the following installed:
 2. To deploy an app to Github pages you need to run:
 `npm run deploy`
 
-# Used Functions
+<!-- # Used Functions
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
-| Paragraph | Text |
+| Paragraph | Text | -->
 
 # Next steps checklist
 - [ ] Update app logo from PNG to SVG format
