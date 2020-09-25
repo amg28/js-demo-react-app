@@ -33,9 +33,9 @@ You must have the following installed:
 | Paragraph | Text | -->
 
 # Next steps checklist
-- [ ] Update app logo from PNG to SVG format
+- [X] Update app logo from PNG to SVG format
 - [ ] Add Character's detail view
-- [ ] Add CSS media quries for mobile view
+- [75%] Add CSS media quries for mobile view
 - [X] Add onkeydown event on a search input
 
 # License
