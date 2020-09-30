@@ -3,9 +3,7 @@ import CharacterCard from './CharacterCard'
 
 const CharactersGrid = ({characters}) => {
     return characters
-    .map(character => <CharacterCard key={character.id}
-                                     name={character.name}
-                                     image={character.image}/>); 
+    .map(character => <CharacterCard key={character.id} data={character}/>); 
 }
 
 export default CharactersGrid
