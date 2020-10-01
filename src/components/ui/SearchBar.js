@@ -1,13 +1,17 @@
 import React from 'react'
 import sendHttpRequest from '../../util.js';
+import { useDispatch } from 'react-redux';
+import { increment } from '../../app/slices/requestCounterSlice'
 
 const SearchBar = ({ setCharacters }) => {
+
+    const dispatch = useDispatch();
 
     function search(event) {
         event.preventDefault();
         const query = document.getElementById('search').value;
         sendHttpRequest('GET', `https://rickandmortyapi.com/api/character/?name=${query}`)
-            .then(responseData => setCharacters(responseData.results))
+            .then(responseData => handleSuccess(responseData))
             .catch(error => handleError(error));
     }
 
@@ -15,6 +19,11 @@ const SearchBar = ({ setCharacters }) => {
         if (event.key === 'Enter') {
             search(event);
         }
+    }
+
+    function handleSuccess(responseData) {
+        dispatch(increment());
+        setCharacters(responseData.results)
     }
 
     function handleError({ error }) {
