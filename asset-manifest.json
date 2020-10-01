@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/js-demo-react-app/static/css/main.1051cca5.chunk.css",
-    "main.js": "/js-demo-react-app/static/js/main.70eb5a96.chunk.js",
-    "main.js.map": "/js-demo-react-app/static/js/main.70eb5a96.chunk.js.map",
+    "main.css": "/js-demo-react-app/static/css/main.e146f283.chunk.css",
+    "main.js": "/js-demo-react-app/static/js/main.81424c88.chunk.js",
+    "main.js.map": "/js-demo-react-app/static/js/main.81424c88.chunk.js.map",
     "runtime-main.js": "/js-demo-react-app/static/js/runtime-main.4618d029.js",
     "runtime-main.js.map": "/js-demo-react-app/static/js/runtime-main.4618d029.js.map",
-    "static/js/2.137014c2.chunk.js": "/js-demo-react-app/static/js/2.137014c2.chunk.js",
-    "static/js/2.137014c2.chunk.js.map": "/js-demo-react-app/static/js/2.137014c2.chunk.js.map",
+    "static/js/2.cf6bf28a.chunk.js": "/js-demo-react-app/static/js/2.cf6bf28a.chunk.js",
+    "static/js/2.cf6bf28a.chunk.js.map": "/js-demo-react-app/static/js/2.cf6bf28a.chunk.js.map",
     "index.html": "/js-demo-react-app/index.html",
-    "precache-manifest.5829ec4cca107a8a30c2f18476dcc10c.js": "/js-demo-react-app/precache-manifest.5829ec4cca107a8a30c2f18476dcc10c.js",
+    "precache-manifest.0efdd24d7f359411d20a2dc3c7938d79.js": "/js-demo-react-app/precache-manifest.0efdd24d7f359411d20a2dc3c7938d79.js",
     "service-worker.js": "/js-demo-react-app/service-worker.js",
-    "static/css/main.1051cca5.chunk.css.map": "/js-demo-react-app/static/css/main.1051cca5.chunk.css.map",
-    "static/js/2.137014c2.chunk.js.LICENSE.txt": "/js-demo-react-app/static/js/2.137014c2.chunk.js.LICENSE.txt",
-    "static/media/rick-morty-logo.svg": "/js-demo-react-app/static/media/rick-morty-logo.7123481b.svg"
+    "static/css/main.e146f283.chunk.css.map": "/js-demo-react-app/static/css/main.e146f283.chunk.css.map",
+    "static/js/2.cf6bf28a.chunk.js.LICENSE.txt": "/js-demo-react-app/static/js/2.cf6bf28a.chunk.js.LICENSE.txt",
+    "static/media/rick-morty-logo.svg": "/js-demo-react-app/static/media/rick-morty-logo.46971e11.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4618d029.js",
-    "static/js/2.137014c2.chunk.js",
-    "static/css/main.1051cca5.chunk.css",
-    "static/js/main.70eb5a96.chunk.js"
+    "static/js/2.cf6bf28a.chunk.js",
+    "static/css/main.e146f283.chunk.css",
+    "static/js/main.81424c88.chunk.js"
   ]
 }
