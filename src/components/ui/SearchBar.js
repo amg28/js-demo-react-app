@@ -1,11 +1,7 @@
 import React from 'react'
 import sendHttpRequest from '../../util.js';
-import { useDispatch } from 'react-redux';
-import { increment } from '../../slices/requestCounterSlice';
 
-const SearchBar = ({ setCharacters }) => {
-
-    const dispatch = useDispatch();
+const SearchBar = ({ updateCharacters, incrementCounter }) => {
 
     function search(event) {
         event.preventDefault();
@@ -22,8 +18,8 @@ const SearchBar = ({ setCharacters }) => {
     }
 
     function handleSuccess(responseData) {
-        dispatch(increment());
-        setCharacters(responseData.results)
+        incrementCounter();
+        updateCharacters(responseData.results);
     }
 
     function handleError({ error }) {

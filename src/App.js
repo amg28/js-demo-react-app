@@ -1,26 +1,35 @@
-import React, {useState} from 'react';
+import React from 'react';
+
 import Header from './components/ui/Header';
 import Search from './components/ui/SearchBar';
-import Footer from './components/ui/Navigation';
 import CharactersGrid from './components/characters/CharactersGrid';
-import './App.css';
 import Navigation from './components/ui/Navigation';
+import './App.css';
+
+import { useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
+
+import { increment, countSelector } from './slices/requestCounterSlice';
+import { setCharacters, charactersSelector } from './slices/charactersSlice';
 
 const App = () => {
 
-  //State: holds search results, which are later used for Character grid creation
-  const [characters, setCharacters] = useState([]);
-  const [page, setPage] = useState();
+  const dispatch = useDispatch();
+  const characters = useSelector(charactersSelector);
+  const count = useSelector(countSelector);
+
+  const incrementCounter = () => dispatch(increment());
+  const updateCharacters = characters => dispatch(setCharacters(characters));
 
   return (
-  <div className="container">
-    <Navigation />
-    <Header />
-    <Search setCharacters={setCharacters} />
-    <div className="character-container">
-      <CharactersGrid characters={characters} />
-    </div>
-  </div>);
+    <div className="container">
+      <Navigation />
+      <Header requestCount={count} />
+      <Search updateCharacters={updateCharacters} incrementCounter={incrementCounter} />
+      <div className="character-container">
+        <CharactersGrid characters={characters} />
+      </div>
+    </div>);
 }
 
 export default App;
