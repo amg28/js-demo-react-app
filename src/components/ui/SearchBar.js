@@ -1,7 +1,8 @@
 import React from 'react'
 import sendHttpRequest from '../../util.js';
 import { useDispatch } from 'react-redux';
-import { increment } from '../../app/slices/requestCounterSlice'
+import { increment } from '../../slices/requestCounterSlice';
+import { InputText } from 'primereact/inputtext';
 
 const SearchBar = ({ setCharacters }) => {
 

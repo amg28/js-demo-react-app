@@ -1,6 +1,6 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
-import {countSelector} from '../../app/slices/requestCounterSlice'
+import {countSelector} from '../../slices/requestCounterSlice'
 
 const RequestCounter = () => {
 
