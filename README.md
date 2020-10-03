@@ -40,13 +40,3 @@ You must have the following installed:
 
 # License
 See the [LICENSE](/LICENSE.md) file for details.
-
-
-1) "You have large amounts of application state that are needed in many places in the app"
-What states are commonly used as global states in application?
-
-2) "The Redux DevTools Extension shows a history of the changes to the state in your Redux store over time. This allows you to debug your applications effectively, including using powerful techniques like "time-travel debugging"."
-Does it internally stores value of my store for each session I interact? And on next try it can show me the diff? Or I can check what was the states in previous session?
-
-3)"Reducers must not do any asynchronous logic"
-What means async logic in this context?
