@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/js-demo-react-app/static/css/main.00af671b.chunk.css",
+    "main.css": "/js-demo-react-app/static/css/main.2c6ceb60.chunk.css",
     "main.js": "/js-demo-react-app/static/js/main.47ffcd8e.chunk.js",
     "main.js.map": "/js-demo-react-app/static/js/main.47ffcd8e.chunk.js.map",
     "runtime-main.js": "/js-demo-react-app/static/js/runtime-main.4618d029.js",
@@ -8,16 +8,16 @@
     "static/js/2.79aca3f5.chunk.js": "/js-demo-react-app/static/js/2.79aca3f5.chunk.js",
     "static/js/2.79aca3f5.chunk.js.map": "/js-demo-react-app/static/js/2.79aca3f5.chunk.js.map",
     "index.html": "/js-demo-react-app/index.html",
-    "precache-manifest.7d40ba7070f2cfda426a9b8a2f4b6cae.js": "/js-demo-react-app/precache-manifest.7d40ba7070f2cfda426a9b8a2f4b6cae.js",
+    "precache-manifest.cf20defabc2fa1a2fe37659e8bfea4d9.js": "/js-demo-react-app/precache-manifest.cf20defabc2fa1a2fe37659e8bfea4d9.js",
     "service-worker.js": "/js-demo-react-app/service-worker.js",
-    "static/css/main.00af671b.chunk.css.map": "/js-demo-react-app/static/css/main.00af671b.chunk.css.map",
+    "static/css/main.2c6ceb60.chunk.css.map": "/js-demo-react-app/static/css/main.2c6ceb60.chunk.css.map",
     "static/js/2.79aca3f5.chunk.js.LICENSE.txt": "/js-demo-react-app/static/js/2.79aca3f5.chunk.js.LICENSE.txt",
     "static/media/rick-morty-logo.svg": "/js-demo-react-app/static/media/rick-morty-logo.46971e11.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4618d029.js",
     "static/js/2.79aca3f5.chunk.js",
-    "static/css/main.00af671b.chunk.css",
+    "static/css/main.2c6ceb60.chunk.css",
     "static/js/main.47ffcd8e.chunk.js"
   ]
 }
