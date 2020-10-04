@@ -128,23 +128,18 @@ html {
       grid-template-rows: 1fr;
     }
 
+    .navigation-container, .counter-container{
+      display: none;
+    }
+
     .search-button{
       display: none;
     }
 
     .character-container {
-      grid-template-columns: 1fr 1fr;
-      row-gap: 20px;
-      column-gap: 5%;
+      grid-template-columns: 1fr;
+      grid-row-gap: 20px;
       margin: 0 5%;
-    }
-
-    .card {
-        grid-template-rows: 2fr 0.3fr;
-    }
-
-    .card-img{
-      width: 100%;
     }
 }
 
@@ -167,6 +162,7 @@ html {
   .character-container {
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20px;
+    margin: 0 6%;
   }
 
   .card {
@@ -198,6 +194,7 @@ html {
   .character-container {
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20px;
+    margin: 0 5.5%;
   }
 
   .card {

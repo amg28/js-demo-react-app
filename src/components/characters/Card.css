@@ -1,8 +1,8 @@
 
   .card-container{
     position: relative;
-    width: 250px;
-    height: 320px;
+    width: 350px;
+    height: 420px;
   }
 
   .card{
@@ -57,4 +57,50 @@
     letter-spacing: 0.5px;
     line-height: 35px;
     margin: 10px;
+  }
+
+  @media (max-width: 480px) {
+
+    .card-container {
+      width: 100%;
+      height: 420px;
+    }
+
+    .card {
+        grid-template-rows: 2fr 0.3fr;
+    }
+
+    .card-img{
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    .card-container {
+      width: 100%;
+      height: 300px;
+    }
+
+    .card-details{
+      color: white;
+      font-size: 16px;
+      line-height: 30px;
+      margin: 5px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+
+    .card-container {
+      width: 100%;
+      height: 350px;
+    }
+
+    .card {
+        grid-template-rows: 2fr 0.3fr;
+    }
+
+    .card-img{
+      width: 100%;
+    }
   }
