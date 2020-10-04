@@ -86,42 +86,6 @@ html {
   column-gap: 3%;
 }
 
-.card{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 2fr 0.5fr;
-  background-color: #363636;
-  height: 100%;
-  width: 100%;
-}
-
-.card:hover .card{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transform: scale(1.1);
-  grid-template-rows: 1fr;
-  transition: 2s;
-  z-index: 999;
-}
-
-.card-img{
-  justify-self: center;
-  align-self: center;
-  width: 100%;
-}
-
-.card-name{
-  justify-self: center;
-  align-self: center;
-  color: white;
-  font-size: 18px;
-}
-
-.card-details{
-  color: white;
-}
-
 .error{
   color: #ff0033;
 }
